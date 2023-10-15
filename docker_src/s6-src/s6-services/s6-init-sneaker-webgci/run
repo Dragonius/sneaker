@@ -65,7 +65,7 @@ pid=""
 
     if [ $startup_iterator -eq 1 ]; then
         echo "Starting Sneaker WebGCI on $bind_address" | output_to_log
-        bash -c "/app/sneaker-linux --config $working_directory/$config_file_name --bind $bind_address 2>&1 | output_to_log" &
+        s6-setuidgid abc bash -c "/app/sneaker-linux --config $working_directory/$config_file_name --bind $bind_address 2>&1 | output_to_log" &
         pid=$! # This grabs the PID of the running Sneaker process and keeps it for later if needed.
         echo "PID="$pid | output_to_log
         sleep $timeout
