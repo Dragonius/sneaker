@@ -1522,10 +1522,10 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.197.tgz#e95c5ddcc814ec3e84c891910a01e0c8a378c54b"
   integrity sha512-BMVOiWs0uNxHVlHBgzTIqJYmj+PgCo4euloGF+5m4okL3rEYzM2EEv78mw8zWSMM57dM7kVIgJ2QDvwHSoCI5g==
 
-"@types/maptalks@^0.49.1":
-  version "0.49.3"
-  resolved "https://registry.yarnpkg.com/@types/maptalks/-/maptalks-0.49.3.tgz#22b53741e0e002c9028350cb9afb945d9727da06"
-  integrity sha512-cek7SpZhfuBwx+vIMyzmGSwe2PW9vEUtd0FWzP6ucUP2TS0jqK0fqlUSMu1HQ9rOxYPFWipP7pHLwsXmKZlOSA==
+"@types/maptalks@^0.49.6":
+  version "0.49.6"
+  resolved "https://registry.yarnpkg.com/@types/maptalks/-/maptalks-0.49.6.tgz#e7f61ebfc3304e6d0cd705e2bd481a1de4513d8b"
+  integrity sha512-0fnrHvSgh1AFOGWvVrBhV6AJe1mWdy4KwJOoGZJSdIdQK4HCpE1tN5/Fkd9XHSOhJcESyd6K0RvPqmbsobZfLQ==
 
 "@types/marked@^6.0.0":
   version "6.0.0"
