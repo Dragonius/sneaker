@@ -5,7 +5,6 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -350,7 +349,7 @@ func (d *DiscordIntegration) save() {
 		panic(err)
 	}
 
-	err = ioutil.WriteFile(*d.config.StatePath, data, os.ModePerm)
+	err = os.WriteFile(*d.config.StatePath, data, os.ModePerm)
 	if err != nil {
 		log.Printf("error: failed to save GCI state file: %v", err)
 	}
@@ -470,7 +469,7 @@ func (d *DiscordIntegration) Setup() error {
 				return err
 			}
 		} else {
-			data, err := ioutil.ReadFile(*d.config.StatePath)
+			data, err := os.ReadFile(*d.config.StatePath)
 			if err != nil {
 				return err
 			}

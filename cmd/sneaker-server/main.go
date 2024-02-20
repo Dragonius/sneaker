@@ -3,7 +3,6 @@ package main
 
 import (
 	"encoding/json"
-	"io/ioutil"
 	"log"
 	"os"
 
@@ -29,7 +28,7 @@ func main() {
 		Action: func(c *cli.Context) error {
 			var config server.Config
 
-			configData, err := ioutil.ReadFile(c.Path("config"))
+			configData, err := os.ReadFile(c.Path("config"))
 			if err != nil {
 				return err
 			}

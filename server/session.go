@@ -170,7 +170,9 @@ func (s *serverSession) run() {
 	go s.updateLoop()
 
 	for {
-		s.runTacViewClient()
+		//s.runTacViewClient()
+		err := s.runTacViewClient()
+		log.Printf("[session:%v] tacview client closed, reseting and reopening in 5 seconds (%v)", s.server.Name, err)
 		time.Sleep(time.Second * 5)
 	}
 }

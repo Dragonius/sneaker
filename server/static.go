@@ -2,7 +2,8 @@ package server
 
 import (
 	"bytes"
-	"io/ioutil"
+//	"io/ioutil"
+	"os"
 	"net/http"
 	"path/filepath"
 	"time"
@@ -15,7 +16,7 @@ func (h *httpServer) serveEmbeddedFile(path string, w http.ResponseWriter, r *ht
 	if h.config.AssetsPath != nil {
 		path := filepath.Join(*h.config.AssetsPath, path)
 
-		contents, err := ioutil.ReadFile(path)
+		contents, err := os.ReadFile(path)
 		if err != nil {
 			http.Error(w, "Error reading file", http.StatusInternalServerError)
 			return
@@ -47,7 +48,7 @@ func (h *httpServer) serveEmbeddedStaticAssets(w http.ResponseWriter, r *http.Re
 			return
 		}
 
-		contents, err := ioutil.ReadFile(path)
+		contents, err := os.ReadFile(path)
 		if err != nil {
 			http.Error(w, "Error reading file", http.StatusInternalServerError)
 			return
