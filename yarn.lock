@@ -1136,35 +1136,34 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@chialab/esbuild-plugin-meta-url@^0.17.7":
-  version "0.17.7"
-  resolved "https://registry.yarnpkg.com/@chialab/esbuild-plugin-meta-url/-/esbuild-plugin-meta-url-0.17.7.tgz#45f9a76ede0de6f5816a3167e60be25d5bdd3fbd"
-  integrity sha512-f4Eg/+XSrcf9JlYUjI8IEupMOuGR7P3hMlfdbE8aMHM0+PJSIYeFV+udMZyNmSpCYfO3dpVtdulv5QDZfTvzWg==
+"@chialab/esbuild-plugin-meta-url@^0.18.2":
+  version "0.18.2"
+  resolved "https://registry.yarnpkg.com/@chialab/esbuild-plugin-meta-url/-/esbuild-plugin-meta-url-0.18.2.tgz#1d35c3b676e26d194536f73c78c1f09ae4bf6c43"
+  integrity sha512-uIRIdLvYnw5mLrTRXY0BTgeZx6ANL2/OHkWFl8FaiTYNb7cyXmwEDRE1mh6kBXPRPtGuqv6XSpNX+koEkElu4g==
   dependencies:
-    "@chialab/esbuild-rna" "^0.17.8"
-    "@chialab/estransform" "^0.17.4"
-    "@chialab/node-resolve" "^0.17.1"
+    "@chialab/esbuild-rna" "^0.18.1"
+    "@chialab/estransform" "^0.18.1"
     mime-types "^2.1.35"
 
-"@chialab/esbuild-rna@^0.17.8":
-  version "0.17.8"
-  resolved "https://registry.yarnpkg.com/@chialab/esbuild-rna/-/esbuild-rna-0.17.8.tgz#1fd65a5aeaccddc30d8badfc126c3f7feaa757d2"
-  integrity sha512-hovU4W5zlyMnbJjexdczpQ9mcUfFsJuv9FWUhzpXiQwPprlp5lul+frTed9s8AyVDTDq2yq3Gx2Ac411QsXYGA==
+"@chialab/esbuild-rna@^0.18.1":
+  version "0.18.2"
+  resolved "https://registry.yarnpkg.com/@chialab/esbuild-rna/-/esbuild-rna-0.18.2.tgz#69368579b7e8a78db25a9c75731270f8663d06bd"
+  integrity sha512-ckzskez7bxstVQ4c5cxbx0DRP2teldzrcSGQl2KPh1VJGdO2ZmRrb6vNkBBD5K3dx9tgTyvskWp4dV+Fbg07Ag==
   dependencies:
-    "@chialab/estransform" "^0.17.4"
-    "@chialab/node-resolve" "^0.17.1"
+    "@chialab/estransform" "^0.18.0"
+    "@chialab/node-resolve" "^0.18.0"
 
-"@chialab/estransform@^0.17.4":
-  version "0.17.5"
-  resolved "https://registry.yarnpkg.com/@chialab/estransform/-/estransform-0.17.5.tgz#de99861bd5343f66528493fa507ec4254984b207"
-  integrity sha512-maJUFkwk0ie0L4VvDO74NDYyRvaTQAI0qmSmrms8bZxUkZ+zQZd1ByWKDCYTRwtR6AOzTvgEOl2ZvEG+OUKv/A==
+"@chialab/estransform@^0.18.0", "@chialab/estransform@^0.18.1":
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/@chialab/estransform/-/estransform-0.18.1.tgz#28d78bb6ffe32582298172ae72d3750c6e950e25"
+  integrity sha512-W/WmjpQL2hndD0/XfR0FcPBAUj+aLNeoAVehOjV/Q9bSnioz0GVSAXXhzp59S33ZynxJBBfn8DNiMTVNJmk4Aw==
   dependencies:
     "@parcel/source-map" "^2.0.0"
 
-"@chialab/node-resolve@^0.17.1":
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/@chialab/node-resolve/-/node-resolve-0.17.1.tgz#ef51948742901d58625cf0275d7b1eb094d4a1b9"
-  integrity sha512-YWaK0MKKeB0FILI6j7qiAlGoSC9MqJZDFXzlAgfOaMCbn8Feqh6njxv7mI3oVkdi7QwV6zPRaTN6hKig/NriMA==
+"@chialab/node-resolve@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@chialab/node-resolve/-/node-resolve-0.18.0.tgz#cedb5f8717628f591bb5d474bde2e0721dcce1a2"
+  integrity sha512-eV1m70Qn9pLY9xwFmZ2FlcOzwiaUywsJ7NB/ud8VB7DouvCQtIHkQ3Om7uPX0ojXGEG1LCyO96kZkvbNTxNu0Q==
 
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
