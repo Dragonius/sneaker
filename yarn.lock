@@ -5663,10 +5663,10 @@ posthtml-expressions@^1.7.1:
     posthtml-parser "^0.10.0"
     posthtml-render "^3.0.0"
 
-posthtml-include@^1.7.1:
-  version "1.7.4"
-  resolved "https://registry.yarnpkg.com/posthtml-include/-/posthtml-include-1.7.4.tgz#45e7abd18395ce5a6e8af9dc5c5390f85cf6171c"
-  integrity sha512-GO5QzHiM6/fXq8DxLoLN+jEW4sH/6nuGF9z+NJmP1qi1A3J2zCC7WwXrEwaPL3T8LrH+FL4IedK+mIJHbn5ZEA==
+posthtml-include@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/posthtml-include/-/posthtml-include-2.0.1.tgz#cefd729dcd53eeb86da767ca3005fbb892180cf2"
+  integrity sha512-1YXy4QWeJldosTKLPz6ecbI4e26jHmo3R97NNTKMQqITvZOY025+yvX/RUgvcD1VghLeACs0Y2P3GjtJo5s27Q==
   dependencies:
     posthtml "^0.16.6"
     posthtml-expressions "^1.7.1"
