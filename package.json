@@ -70,7 +70,7 @@
     "esbuild-loader": "^2.15.1",
     "eslint": "^7.30.0",
     "eslint-plugin-react": "^7.24.0",
-    "html-webpack-plugin": "^5.3.2",
+    "html-webpack-plugin": "^5.6.0",
     "json5-loader": "^4.0.1",
     "mini-css-extract-plugin": "^2.9.0",
     "postcss": "^8.4.31",
