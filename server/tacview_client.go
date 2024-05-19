@@ -39,7 +39,7 @@ func NewTacViewClient(host string, port int, password string) *TacViewClient {
 
 func (c *TacViewClient) Start() (*tacview.Header, chan *tacview.TimeFrame, error) {
 	reader, err := tacview.NewRealTimeReader(fmt.Sprintf("%s:%d", c.host, c.port), "sneakerserver", c.password)
-	log.Printf("[host:%v] port %v password %s", c.host, c.port, c.password)
+	log.Printf("[host:%v] port %v ", c.host, c.port)
 
 	if err != nil {
 		return nil, nil, err
