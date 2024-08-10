@@ -1,4 +1,6 @@
 @echo off
+set GOPATH=D:\Ohjelmointi\go
+set PATH=%PATH%;$GOPATH/bin
 set GOARCH=386
 
 echo Cleaning up...
