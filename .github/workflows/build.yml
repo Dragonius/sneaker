@@ -11,7 +11,7 @@ jobs:
             ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
         steps:
             - uses: actions/checkout@v3
-            - uses: actions/setup-go@v5
+            - uses: actions/setup-go@v4
               with:
                 go-version: 'stable'
             - uses: actions/setup-node@v4
