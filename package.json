@@ -78,7 +78,7 @@
     "postcss-fontpath": "^1.0.0",
     "postcss-loader": "^8.1.1",
     "postcss-preset-env": "^6.7.0",
-    "posthtml-expressions": "^1.7.1",
+    "posthtml-expressions": "^1.11.4",
     "posthtml-include": "^2.0.1",
     "posthtml-load-config": "^2.0.0",
     "style-loader": "^3.3.4",

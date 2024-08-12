@@ -6299,10 +6299,10 @@ postcss@^8.4.21, postcss@^8.4.23, postcss@^8.4.31, postcss@^8.4.4:
     picocolors "^1.0.0"
     source-map-js "^1.2.0"
 
-posthtml-expressions@^1.7.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/posthtml-expressions/-/posthtml-expressions-1.11.1.tgz#1e1f8914d49ddd1a8dcabd9ed911078efb8908f7"
-  integrity sha512-2zA5SRM7quupTGa422xH72T0n3tF5quZeZ66czmMa/4QAj8HFzCTlN5l42wWVjLCxj7XOmMmQJEeK0+p3AgH+w==
+posthtml-expressions@^1.11.4, posthtml-expressions@^1.7.1:
+  version "1.11.4"
+  resolved "https://registry.yarnpkg.com/posthtml-expressions/-/posthtml-expressions-1.11.4.tgz#eb86666de10940268a74fe0f3fb62d3f7607b5de"
+  integrity sha512-tJI6KhKLcePRO0/i4d01MNXfcaBa2jIu4MuVLixvGwCRzxdY2D7LLm17ijNyQNQu3xOhCffBLtUMju0K64smmQ==
   dependencies:
     fclone "^1.0.11"
     posthtml "^0.16.5"
