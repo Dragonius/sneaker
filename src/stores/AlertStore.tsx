@@ -58,7 +58,9 @@ export function checkAlerts() {
     if (!entity || !entity.types.includes("Air")) {
       continue;
     }
-
+    if (!entity || !entity.types.includes("Weapon")) {
+      continue;
+    }
     const ourTrack = trackState.tracks.get(entityId);
     if (!ourTrack || estimatedSpeed(ourTrack) < 25) {
       continue;

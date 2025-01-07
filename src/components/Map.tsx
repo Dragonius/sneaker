@@ -10,6 +10,7 @@ import React, {
 import { renderToString } from "react-dom/server";
 import { FONT_FAMILY } from "../Constants";
 import { planes } from "../dcs/aircraft";
+import { missiles } from "../dcs/weapon";
 import { DCSMap } from "../dcs/maps/DCSMap";
 import { useKeyPress } from "../hooks/useKeyPress";
 import useRenderGeometry from "../hooks/useRenderGeometry";
