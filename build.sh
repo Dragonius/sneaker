@@ -17,7 +17,7 @@ yarn build
 cd cmd/sneaker-server
 go generate
 
-platforms=("windows/386" "windows/amd64" "linux/386")
+platforms=("windows/386" "windows/amd64" "linux/386" "linux/amd64")
 
 for platform in "${platforms[@]}"
 do
