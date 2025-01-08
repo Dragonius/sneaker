@@ -37,6 +37,7 @@ export const missiles: Record<string, Missile> = {
     "R-73 (AA-11 Archer)": new Missile("R-73 (AA-11 Archer)"),
     "R-77 (AA-12 Adder)": new Missile("R-77 (AA-12 Adder)"),
     "SM-2": new Missile("SM-2"),
+    "SA48H6E2": new Missile("SA48H6E2"),
 
 //CBU-87
 //CBU-97
