@@ -1,0 +1,701 @@
+{
+    "d": {
+      "offset": 12075,
+      "created": [
+        {
+          "id": 27403,
+          "types": [
+            "Weapon",
+            "Missile"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Name": "AGM_114K"
+          },
+          "latitude": 26.8215698,
+          "longitude": 55.8604528,
+          "altitude": 123.05,
+          "heading": 314,
+          "updated_at": 12075,
+          "created_at": 12074
+        }
+      ],
+      "updated": [
+        {
+          "id": 745987,
+          "types": [
+            "Air",
+            "Rotorcraft"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "FARP Qeshm UH-1H - 1",
+            "Name": "UH-1H",
+            "Pilot": "REAPER 21 | ThreeGhost"
+          },
+          "latitude": 26.9868724,
+          "longitude": 56.1802842,
+          "altitude": 24.93,
+          "heading": 103.7,
+          "updated_at": 12075,
+          "created_at": 11975
+        },
+        {
+          "id": 1445634,
+          "types": [
+            "Air",
+            "Rotorcraft"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Group": "RUSSIA hel 62",
+            "Name": "Mi-26",
+            "Pilot": "RUSSIA hel 62 unit1"
+          },
+          "latitude": 26.1938206,
+          "longitude": 56.1922878,
+          "altitude": 501.28,
+          "heading": 223.1,
+          "updated_at": 12075,
+          "created_at": 12001
+        },
+        {
+          "id": 1445890,
+          "types": [
+            "Air",
+            "Rotorcraft"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Group": "RUSSIA hel 63",
+            "Name": "Mi-26",
+            "Pilot": "RUSSIA hel 63 unit1"
+          },
+          "latitude": 26.181587,
+          "longitude": 56.2154318,
+          "altitude": 500.36,
+          "heading": 174.8,
+          "updated_at": 12075,
+          "created_at": 12001
+        },
+        {
+          "id": 4866,
+          "types": [
+            "Sea",
+            "Watercraft",
+            "Warship"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "U.S.S. George",
+            "Name": "TICONDEROG"
+          },
+          "latitude": 25.335754299999998,
+          "longitude": 57.0497072,
+          "altitude": 0,
+          "heading": 56.4,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 4098,
+          "types": [
+            "Sea",
+            "Watercraft",
+            "AircraftCarrier"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "U.S.S. Osiris",
+            "Name": "Stennis",
+            "Pilot": "Stennis"
+          },
+          "latitude": 24.9330734,
+          "longitude": 57.0937648,
+          "altitude": 0,
+          "heading": 152.5,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 11275,
+          "types": [
+            "Air",
+            "Rotorcraft"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "Qeshm Island Apache-4",
+            "Name": "AH-64D_BLK_II",
+            "Pilot": "Wish.tomcruise - Audiman"
+          },
+          "latitude": 26.8200346,
+          "longitude": 55.8622209,
+          "altitude": 110.7,
+          "heading": 314,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 3074,
+          "types": [
+            "Sea",
+            "Watercraft",
+            "Warship"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Group": "Wuhan",
+            "Name": "MOLNIYA"
+          },
+          "latitude": 26.4348788,
+          "longitude": 55.3693108,
+          "altitude": 0,
+          "heading": 106.1,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 4354,
+          "types": [
+            "Sea",
+            "Watercraft",
+            "AircraftCarrier"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "U.S.S. George",
+            "Name": "CVN_73",
+            "Pilot": "George"
+          },
+          "latitude": 25.3206418,
+          "longitude": 57.0367368,
+          "altitude": 0,
+          "heading": 56.1,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 1445378,
+          "types": [
+            "Air",
+            "Rotorcraft"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Group": "RUSSIA hel 61",
+            "Name": "Mi-26",
+            "Pilot": "RUSSIA hel 61 unit1"
+          },
+          "latitude": 26.2309869,
+          "longitude": 56.2164431,
+          "altitude": 23.12,
+          "heading": 6.9,
+          "updated_at": 12075,
+          "created_at": 12001
+        },
+        {
+          "id": 1446658,
+          "types": [
+            "Air",
+            "FixedWing"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Group": "RUSSIA air 36",
+            "Name": "Su-25TM",
+            "Pilot": "RUSSIA air 36 unit1"
+          },
+          "latitude": 28.13151,
+          "longitude": 56.1089931,
+          "altitude": 7952.74,
+          "heading": 200,
+          "updated_at": 12075,
+          "created_at": 12040
+        },
+        {
+          "id": 1444610,
+          "types": [
+            "Weapon",
+            "Missile"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Name": "SA48H6E2"
+          },
+          "latitude": 25.3144182,
+          "longitude": 55.0068474,
+          "altitude": 10373.63,
+          "heading": 202.3,
+          "updated_at": 12075,
+          "created_at": 11967
+        },
+        {
+          "id": 1223682,
+          "types": [
+            "Air",
+            "FixedWing"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "USA air 30",
+            "Name": "KC135MPRS",
+            "Pilot": "USA air 30 unit1"
+          },
+          "latitude": 25.7034407,
+          "longitude": 57.4779457,
+          "altitude": 5486,
+          "heading": 182.5,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 5378,
+          "types": [
+            "Sea",
+            "Watercraft",
+            "AircraftCarrier"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "xb",
+            "Group": "BlueKuz",
+            "Name": "CV_1143_5",
+            "Pilot": "Naval-1-1"
+          },
+          "latitude": 25.06948,
+          "longitude": 57.6557624,
+          "altitude": 0,
+          "heading": 112.5,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 218887,
+          "types": [
+            "Air",
+            "Rotorcraft"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "FARP Qeshm Apache - 1",
+            "Name": "AH-64D_BLK_II",
+            "Pilot": "Sting 1-1 | Falco"
+          },
+          "latitude": 26.8932367,
+          "longitude": 55.9969601,
+          "altitude": 47.11,
+          "heading": 233.8,
+          "updated_at": 12075,
+          "created_at": 11379
+        },
+        {
+          "id": 141832,
+          "types": [
+            "Air",
+            "FixedWing"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "Al Dhafra F-15E -11",
+            "Name": "F-15ESE",
+            "Pilot": "Princess 1-8 | Azula"
+          },
+          "latitude": 25.2153554,
+          "longitude": 55.1347159,
+          "altitude": 7244.61,
+          "heading": 52.5,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 1431298,
+          "types": [
+            "Air",
+            "FixedWing"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "USA air 35",
+            "Name": "E-2C",
+            "Pilot": "USA air 35 unit1"
+          },
+          "latitude": 25.0579115,
+          "longitude": 57.6253862,
+          "altitude": 7620,
+          "heading": 45,
+          "updated_at": 12075,
+          "created_at": 11380
+        },
+        {
+          "id": 1447170,
+          "types": [
+            "Air",
+            "FixedWing"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ir",
+            "Group": "IRAN air 37",
+            "Name": "Su-25",
+            "Pilot": "IRAN air 37 unit1"
+          },
+          "latitude": 26.5301747,
+          "longitude": 53.9689427,
+          "altitude": 36.99,
+          "heading": 277.8,
+          "updated_at": 12075,
+          "created_at": 12040
+        },
+        {
+          "id": 1444354,
+          "types": [
+            "Weapon",
+            "Missile"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Name": "SA48H6E2"
+          },
+          "latitude": 25.2948944,
+          "longitude": 54.9991122,
+          "altitude": 9612.45,
+          "heading": 202.3,
+          "updated_at": 12075,
+          "created_at": 11964
+        },
+        {
+          "id": 3330,
+          "types": [
+            "Sea",
+            "Watercraft",
+            "AircraftCarrier"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "cn",
+            "Group": "Yulin",
+            "Name": "Type_071"
+          },
+          "latitude": 26.3972181,
+          "longitude": 55.3769679,
+          "altitude": 0,
+          "heading": 109.4,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 4610,
+          "types": [
+            "Sea",
+            "Watercraft",
+            "Warship"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "U.S.S. George",
+            "Name": "USS_Arleigh_Burke_IIa"
+          },
+          "latitude": 25.3063119,
+          "longitude": 57.0052274,
+          "altitude": 0,
+          "heading": 29.3,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 1447426,
+          "types": [
+            "Air",
+            "FixedWing"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ir",
+            "Group": "IRAN air 37",
+            "Name": "Su-25",
+            "Pilot": "IRAN air 37 unit2"
+          },
+          "latitude": 26.5301078,
+          "longitude": 53.9696801,
+          "altitude": 36.98,
+          "heading": 276.3,
+          "updated_at": 12075,
+          "created_at": 12040
+        },
+        {
+          "id": 1445122,
+          "types": [
+            "Air",
+            "Rotorcraft"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Group": "RUSSIA hel 60",
+            "Name": "Mi-26",
+            "Pilot": "RUSSIA hel 60 unit1"
+          },
+          "latitude": 26.195375300000002,
+          "longitude": 56.2015293,
+          "altitude": 576.03,
+          "heading": 217.1,
+          "updated_at": 12075,
+          "created_at": 12001
+        },
+        {
+          "id": 1378818,
+          "types": [
+            "Air",
+            "FixedWing"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "USA air 32",
+            "Name": "KC135MPRS",
+            "Pilot": "USA air 32 unit1"
+          },
+          "latitude": 25.1567493,
+          "longitude": 55.527064,
+          "altitude": 6666.7,
+          "heading": 105.3,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 2050,
+          "types": [
+            "Sea",
+            "Watercraft",
+            "Warship"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Group": "Pyotr",
+            "Name": "PIOTR"
+          },
+          "latitude": 26.3570207,
+          "longitude": 55.3772903,
+          "altitude": 0,
+          "heading": 110.6,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 5122,
+          "types": [
+            "Sea",
+            "Watercraft",
+            "AircraftCarrier"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "U.S.S. BluesBad",
+            "Name": "LHA_Tarawa",
+            "Pilot": "U.S.S. BluesBad"
+          },
+          "latitude": 24.4026867,
+          "longitude": 56.855625,
+          "altitude": 0,
+          "heading": 328.2,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 11274,
+          "types": [
+            "Air",
+            "FixedWing"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "Al Dhafra F-16CM #001",
+            "Name": "F-16C_50",
+            "Pilot": "Princess 1-9 | SourMonkey"
+          },
+          "latitude": 25.2429424,
+          "longitude": 54.9780745,
+          "altitude": 7085.7,
+          "heading": 204.6,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 1413378,
+          "types": [
+            "Ground",
+            "Light",
+            "Human",
+            "Air",
+            "Parachutist"
+          ],
+          "properties": {
+            "Country": "us",
+            "Name": "Pilot"
+          },
+          "latitude": 25.1105877,
+          "longitude": 57.7246161,
+          "altitude": 95.62,
+          "heading": 57.9,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 1413634,
+          "types": [
+            "Ground",
+            "Light",
+            "Human",
+            "Air",
+            "Parachutist"
+          ],
+          "properties": {
+            "Country": "us",
+            "Name": "Pilot"
+          },
+          "latitude": 25.1113431,
+          "longitude": 57.7258727,
+          "altitude": 21.69,
+          "heading": 60.8,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 461826,
+          "types": [
+            "Air",
+            "FixedWing"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "USA air 3",
+            "Name": "E-3A",
+            "Pilot": "USA air 3 unit1"
+          },
+          "latitude": 24.341836,
+          "longitude": 54.490769900000004,
+          "altitude": 7620.06,
+          "heading": 129.9,
+          "updated_at": 12075,
+          "created_at": 11306
+        },
+        {
+          "id": 1444866,
+          "types": [
+            "Air",
+            "Rotorcraft"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Group": "RUSSIA hel 59",
+            "Name": "Mi-26",
+            "Pilot": "RUSSIA hel 59 unit1"
+          },
+          "latitude": 26.1997103,
+          "longitude": 56.1830643,
+          "altitude": 300.71,
+          "heading": 270.7,
+          "updated_at": 12075,
+          "created_at": 12001
+        },
+        {
+          "id": 1438466,
+          "types": [
+            "Air",
+            "Rotorcraft"
+          ],
+          "properties": {
+            "Coalition": "Enemies",
+            "Color": "Blue",
+            "Country": "us",
+            "Group": "USA hel 58",
+            "Name": "CH-47D",
+            "Pilot": "USA hel 58 unit1"
+          },
+          "latitude": 24.4971006,
+          "longitude": 54.6263851,
+          "altitude": 650.4,
+          "heading": 20.1,
+          "updated_at": 12075,
+          "created_at": 11587
+        },
+        {
+          "id": 1446914,
+          "types": [
+            "Air",
+            "FixedWing"
+          ],
+          "properties": {
+            "Coalition": "Allies",
+            "Color": "Red",
+            "Country": "ru",
+            "Group": "RUSSIA air 36",
+            "Name": "Su-25TM",
+            "Pilot": "RUSSIA air 36 unit2"
+          },
+          "latitude": 28.1450941,
+          "longitude": 56.1380152,
+          "altitude": 7450.05,
+          "heading": 178.4,
+          "updated_at": 12075,
+          "created_at": 12040
+        }
+      ],
+      "deleted": [
+        1447938
+      ]
+    }
+  }
