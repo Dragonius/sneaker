@@ -5,14 +5,14 @@ class Weapon {
 
     constructor(id: string, sidcPlatform: string, natoName?: string) {
     this.id = id;
-    this.sidcPlatform = sidcPlatform || "MFF-";
+    this.sidcPlatform = sidcPlatform || "W-";
     this.natoName = natoName;
     }
 }
 
 class Missile extends Weapon {
     constructor(id: string, sidcPlatform?: string, natoName?: string) {
-    super(id, sidcPlatform || "MFF-", natoName);
+    super(id, sidcPlatform || "WM-", natoName);
     }
 }
 
