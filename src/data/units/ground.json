@@ -1143,7 +1143,8 @@
     "code": null,
     "dcs_codes": ["M 818"],
     "mil_std_2525_d": null,
-    "name": null
+    "name": "M 818",
+    "sidc":"S-G-EVUSM---"
   },
   {
     "code": null,
