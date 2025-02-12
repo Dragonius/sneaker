@@ -79,7 +79,16 @@ export class Entity {
         })`,
       );
     }
-
+    const missile = missiles[this.name];
+    if (missile !== undefined) {
+      return `S${ident}${battleDimension}-${missile.sidcPlatform}--`;
+    } else if (this.types.includes("Missile")) {
+      console.log(
+        `Missing AIR SIDC platform definition: ${this.name} (${
+          this.types.join(", ")
+        })`,
+      );
+    }
     return `S${ident}${battleDimension}-------`;
   }
 }
