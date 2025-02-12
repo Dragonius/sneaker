@@ -886,9 +886,9 @@ export function Map({ dcsMap }: { dcsMap: DCSMap }) {
 
     if (selectedEntity && selectedTrack) {
       const speed = estimatedSpeed(selectedTrack);
-      if (speed < 25) {
-        setSelectedEntityId(null);
-      }
+      //if (speed < 25) {
+      //  setSelectedEntityId(null);
+      //}
 
       selectedCircle.current.show();
       selectedCircle.current.setRadius(map.current.getScale(zoom) * 3);
