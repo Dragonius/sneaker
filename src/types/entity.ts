@@ -84,7 +84,7 @@ export class Entity {
       return `S${ident}${battleDimension}-${missile.sidcPlatform}--`;
     } else if (this.types.includes("Missile")) {
       console.log(
-        `Missing AIR SIDC platform definition: ${this.name} (${
+        `Missing MISSILE SIDC platform definition: ${this.name} (${
           this.types.join(", ")
         })`,
       );
