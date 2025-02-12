@@ -100,6 +100,7 @@ export const planes: Record<string, Plane> = {
   "WingLoong-I": new Plane("WingLoong_I"),
   "Christen Eagle II": new Plane("Christen_Eagle_II"),
   "F-16C_50": new Plane("F_16C_50"),
+  "F-4E-45MC":  new Plane("F_4E_45MC"),
   "F-5E": new Plane("F_5E"),
   "F-5E-3": new Plane("F_5E_3"),
   "F-86F Sabre": new Plane("F_86F_Sabre"),
