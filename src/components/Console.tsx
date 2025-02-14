@@ -88,7 +88,7 @@ function SearchTab({ map }: { map: maptalks.Map }) {
       };
     } else {
       return (it: Entity) =>
-        ((it.types.includes("Air") || it.types.includes("Sea")) &&
+        ((it.types.includes("Air") || it.types.includes("Sea") || it.types.includes("Weapon")) &&
           it.name.toLowerCase().includes(search)) ||
         (it.pilot !== undefined && it.pilot.toLowerCase().includes(search));
     }
