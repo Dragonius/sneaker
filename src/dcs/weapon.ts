@@ -33,6 +33,7 @@ export const missiles: Record<string, Missile> = {
     "AIM_9X": new Missile("AIM_9X"),
     "BGM-109C Tomahawk": new Missile("BGM-109C Tomahawk"),
     "HAWK_RAKETA": new Missile("HAWK_RAKETA"),
+    "MIM_104": new Missile("MIM_104"),
     "MIM-104 Patriot": new Missile("MIM-104 Patriot"),
     "MIM-23B Hawk": new Missile("MIM-23B Hawk"),
     "MIM-23K Hawk": new Missile("MIM-23K Hawk"),
@@ -49,6 +50,7 @@ export const missiles: Record<string, Missile> = {
     "SM-2": new Missile("SM-2"),
     "Vikhr_M": new Missile("Vikhr_M"),
     "X_58": new Missile("X_58"),
+    "ROLAND_R": new Missile("ROLAND_R"),
 };
 
 
