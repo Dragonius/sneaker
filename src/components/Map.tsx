@@ -156,6 +156,8 @@ function MapRadarTracks({
           name = `${entity.pilot} (${name})`;
         } else if (planes[entity.name]?.natoName !== undefined) {
           name = `${planes[entity.name].natoName} (${entity.name})`;
+        }else if (missiles[entity.name]?.natoName !== undefined) {
+          name = `${missiles[entity.name].natoName} (${entity.name})`;
         }
 
         let color = entity.coalition !== "Allies" ? "#17c2f6" : "#ff8080";
