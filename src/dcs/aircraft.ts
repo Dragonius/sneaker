@@ -23,7 +23,7 @@ class Helicopter extends Aircraft {
 }
 
 export const planes: Record<string, Plane> = {
-"A-10A": new Plane("A_10A", "MFA-"),
+  "A-10A": new Plane("A_10A", "MFA-"),
   "A-10C": new Plane("A_10C", "MFA-"),
   "A-10C_2": new Plane("A_10C_2", "MFA-"),
   "A-20G": new Plane("A_20G", "MFB-"),
