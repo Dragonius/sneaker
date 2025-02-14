@@ -17,8 +17,12 @@ class Missile extends Weapon {
 }
 
 export const missiles: Record<string, Missile> = {
-    "AIM-120C": new Missile("AIM-120C"),
+    "ADM_141A": new Missile("ADM_141A"),
+    "AGM_114K": new Missile("AGM_114K"),
+    "AGM_114L": new Missile("AGM_114L"),
+    "AGM_88": new Missile("AGM_88"),
     "AIM-120B": new Missile("AIM-120B"),
+    "AIM-120C": new Missile("AIM-120C"),
     "AIM-54A-Mk47": new Missile("AIM-54A-Mk47"),
     "AIM-54A-Mk60": new Missile("AIM-54A-Mk60"),
     "AIM-54C-Mk47": new Missile("AIM-54C-Mk47"),
@@ -26,21 +30,27 @@ export const missiles: Record<string, Missile> = {
     "AIM-7F": new Missile("AIM-7F"),
     "AIM-7MH": new Missile("AIM-7MH"),
     "AIM-9L": new Missile("AIM-9L"),
+    "AIM_9X": new Missile("AIM_9X"),
     "BGM-109C Tomahawk": new Missile("BGM-109C Tomahawk"),
+    "HAWK_RAKETA": new Missile("HAWK_RAKETA"),
     "MIM-104 Patriot": new Missile("MIM-104 Patriot"),
     "MIM-23B Hawk": new Missile("MIM-23B Hawk"),
     "MIM-23K Hawk": new Missile("MIM-23K Hawk"),
+    "P_27PE": new Missile("P_27PE"),
+    "P_73": new Missile("P_73"),
     "R-27ER (AA-10 Alamo C)": new Missile("R-27ER (AA-10 Alamo C)"),
     "R-33 (AA-9 Amos)": new Missile("R-33 (AA-9 Amos)"),
     "R-3R": new Missile("R-3R"),
     "R-60M": new Missile("R-60M"),
     "R-73 (AA-11 Archer)": new Missile("R-73 (AA-11 Archer)"),
     "R-77 (AA-12 Adder)": new Missile("R-77 (AA-12 Adder)"),
-    "SM-2": new Missile("SM-2"),
     "SA48H6E2": new Missile("SA48H6E2"),
-    "AGM_114K": new Missile("AGM_114K"),
-    "AGM_114L": new Missile("AGM_114L"),
+    "SA9M38M1": new Missile("SA9M38M1"),
+    "SM-2": new Missile("SM-2"),
+    "Vikhr_M": new Missile("Vikhr_M"),
+    "X_58": new Missile("X_58"),
 };
+
 
 //CBU-87
 //CBU-97
