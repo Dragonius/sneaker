@@ -92,7 +92,7 @@ export const trackStore = create<TrackStoreData>(() => {
 (window as any).trackStore = trackStore;
 
 function isEntityTrackable(entity: RawEntityData) {
-  return entity.types.includes("Air") && !entity.types.includes("Parachutist");
+  return entity.types.includes("Air") || entity.types.includes("Weapon") && !entity.types.includes("Parachutist");
 }
 
 export function createTracks(event: SneakerInitialStateEvent) {
