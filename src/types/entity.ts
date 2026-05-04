@@ -1,4 +1,5 @@
 import { planes } from "../dcs/aircraft";
+import { missiles } from "../dcs/weapon";
 
 export type RawEntityData = {
   id: number;
@@ -62,6 +63,8 @@ export class Entity {
       battleDimension = "a";
     } else if (this.types.includes("Sea")) {
       battleDimension = "s";
+    } else if (this.types.includes("Weapon")) {
+      battleDimension = "w";
     } else if (this.types.includes("Ground")) {
       battleDimension = "g";
     }
@@ -76,7 +79,16 @@ export class Entity {
         })`,
       );
     }
-
+    const missile = missiles[this.name];
+    if (missile !== undefined) {
+      return `S${ident}${battleDimension}-${missile.sidcPlatform}--`;
+    } else if (this.types.includes("Missile")) {
+      console.log(
+        `Missing MISSILE SIDC platform definition: ${this.name} (${
+          this.types.join(", ")
+        })`,
+      );
+    }
     return `S${ident}${battleDimension}-------`;
   }
 }

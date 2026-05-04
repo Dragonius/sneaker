@@ -154,6 +154,7 @@ export default function useRenderGroundUnit(map: maptalks.Map | null) {
           (it) =>
             it.types.includes("Ground") &&
             !it.types.includes("Air") &&
+            !it.types.includes("Weapon") &&
             !it.types.includes("Static")
         ),
         offset,
@@ -175,6 +176,7 @@ export default function useRenderGroundUnit(map: maptalks.Map | null) {
             (it) =>
               it.types.includes("Ground") &&
               !it.types.includes("Air") &&
+              !it.types.includes("Weapon") &&
               !it.types.includes("Static")
           ),
           state.offset,

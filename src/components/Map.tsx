@@ -10,6 +10,7 @@ import React, {
 import { renderToString } from "react-dom/server";
 import { FONT_FAMILY } from "../Constants";
 import { planes } from "../dcs/aircraft";
+import { missiles } from "../dcs/weapon";
 import { DCSMap } from "../dcs/maps/DCSMap";
 import { useKeyPress } from "../hooks/useKeyPress";
 import useRenderGeometry from "../hooks/useRenderGeometry";
@@ -155,6 +156,8 @@ function MapRadarTracks({
           name = `${entity.pilot} (${name})`;
         } else if (planes[entity.name]?.natoName !== undefined) {
           name = `${planes[entity.name].natoName} (${entity.name})`;
+        }else if (missiles[entity.name]?.natoName !== undefined) {
+          name = `${missiles[entity.name].natoName} (${entity.name})`;
         }
 
         let color = entity.coalition !== "Allies" ? "#17c2f6" : "#ff8080";
@@ -885,9 +888,9 @@ export function Map({ dcsMap }: { dcsMap: DCSMap }) {
 
     if (selectedEntity && selectedTrack) {
       const speed = estimatedSpeed(selectedTrack);
-      if (speed < 25) {
-        setSelectedEntityId(null);
-      }
+      //if (speed < 25) {
+      //  setSelectedEntityId(null);
+      //}
 
       selectedCircle.current.show();
       selectedCircle.current.setRadius(map.current.getScale(zoom) * 3);

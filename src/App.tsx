@@ -4,6 +4,7 @@ import { BiLoader } from "react-icons/bi";
 import { Link, Redirect, Route, Switch } from "react-router-dom";
 import useFetch, { CachePolicies } from "use-http";
 import { Map } from "./components/Map";
+import { Afghanistan } from "./dcs/maps/Afghanistan";
 import { Caucasus } from "./dcs/maps/Caucasus";
 import { DCSMap } from "./dcs/maps/DCSMap";
 import { Marianas } from "./dcs/maps/Marianas";
@@ -150,6 +151,8 @@ function ServerContainer({ serverName }: { serverName: string }) {
     dcsMap = Nevada;
   } else if (refLat >= 62 && refLat <= 73 && refLng >= -4 && refLng <= 40) {
 	dcsMap = Kola;
+    } else if (refLat >= 28 && refLat <= 39 && refLng >= 60 && refLng <= 74) {
+	dcsMap = Afghanistan;
   } else {
     console.log(refLat, refLng);
     return (

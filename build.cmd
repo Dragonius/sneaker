@@ -1,6 +1,12 @@
 @echo off
-set GOPATH=D:\Ohjelmointi\go
-set PATH=%PATH%;$GOPATH/bin
+REM set GOROOT=D:\Ohjelmointi\go
+REM set GOPATH=D:\Ohjelmointi\D:\Ohjelmointi\gopath
+REM set GOVERSIONINFO=D:\Ohjelmointi\gopath\bin\windows_386
+set GOROOT=D:\Ohjelmointi\go120
+set GOPATH=D:\Ohjelmointi\gopath120
+set GOVERSIONINFO=D:\Ohjelmointi\gopath120\bin\windows_386
+set 2PATH=%PATH%
+set PATH=%PATH%;%GOROOT%\bin;%GOVERSIONINFO%;D:\Ohjelmointi\node-v20;D:\Ohjelmointi\node-v20\node_modules\corepack\shims
 set GOARCH=386
 
 echo Cleaning up...
@@ -12,7 +18,7 @@ del /F dist\*.LICENSE.txt 2>NUL
 del /F dist\*.js 2>NUL
 del /F dist\*.html 2>NUL
 del /F dist\*.css 2>NUL
-go install github.com/josephspurrier/goversioninfo/cmd/goversioninfo@latest
+go install github.com/josephspurrier/goversioninfo/cmd/goversioninfo@v1.4.0
 call yarn
 call yarn build
 echo Building sneaker.exe ...
@@ -21,3 +27,4 @@ go generate
 go build -o ..\..\sneaker.exe
 cd ..\..
 echo Done.
+set PATH=%2PATH%
