@@ -1,7 +1,10 @@
 @echo off
-set GOROOT=D:\Ohjelmointi\go
-set GOPATH=D:\Ohjelmointi\gopath
-set GOVERSIONINFO=D:\Ohjelmointi\gopath\bin\windows_386
+REM set GOROOT=D:\Ohjelmointi\go
+REM set GOPATH=D:\Ohjelmointi\D:\Ohjelmointi\gopath
+REM set GOVERSIONINFO=D:\Ohjelmointi\gopath\bin\windows_386
+set GOROOT=D:\Ohjelmointi\go120
+set GOPATH=D:\Ohjelmointi\gopath120
+set GOVERSIONINFO=D:\Ohjelmointi\gopath120\bin\windows_386
 set 2PATH=%PATH%
 set PATH=%PATH%;%GOROOT%\bin;%GOVERSIONINFO%;D:\Ohjelmointi\node-v20;D:\Ohjelmointi\node-v20\node_modules\corepack\shims
 set GOARCH=386
